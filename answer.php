@@ -43,29 +43,17 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/street.jpg" alt="The word street spelt out in black, image" />
+        <img src="./images/notebook-animation.svg" alt="laptop image" width="250" />
       </div>
       <div class="page-content-php">
-        <form action="answer.php" method="GET">
-          <p>Street Number</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
-            <label class="mdl-textfield__label" for="number-input">Street number here ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <p>Street Name</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" name="name">
-            <label class="mdl-textfield__label" for="name-input">Street name here ...</label>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Enter
-          </button>
-        </form>
+        <div id="user-info">
+          <?php
+          $number = $_GET["number"];
+          $name = $_GET["name"];
+
+          echo "<p>The address is: " . $number . " " . $name . ".</p>";
+          ?>
+        </div>
       </div>
     </main>
   </div>
