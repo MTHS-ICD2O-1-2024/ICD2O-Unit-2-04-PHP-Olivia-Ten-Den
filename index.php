@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="The Address program, PHP" />
+  <meta name="description" content="The Area of Triangle program, PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Olivia TD" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>The Address program, PHP</title>
+  <title>The Area of Triangle program, PHP</title>
 </head>
 
 <body>
@@ -38,12 +38,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Address program, PHP!</span>
+        <span class="mdl-layout-title">The Area of Triangle program, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/street.jpg" alt="The word street spelt out in black, image" />
+        <img src="./images/area_of_triangle.png" alt="White sign that shows the formula to calculate the area of a triangle, image" />
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
