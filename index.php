@@ -43,27 +43,28 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_triangle.png" alt="White sign that shows the formula to calculate the area of a triangle, image" />
+        <img src="./images/area_of_triangle.png" alt="White sign that shows the formula to calculate the area of a triangle, image" width="250" />
       </div>
+      <br />
+      <div class="page-content">Enter Triangle's base and height in cm.</div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
-          <p>Street Number</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="number">
-            <label class="mdl-textfield__label" for="number-input">Street number here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-of-triangle">
+            <label class="mdl-textfield__label" for="base-of-triangle">Enter base of triangle here</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
-          <p>Street Name</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" name="name">
-            <label class="mdl-textfield__label" for="name-input">Street name here ...</label>
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-triangle">
+            <label class="mdl-textfield__label" for="height-of-triangle">Enter height of triangle here</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">
-            Enter
+            Calculate
           </button>
         </form>
       </div>
